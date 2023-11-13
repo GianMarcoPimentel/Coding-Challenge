@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CodingChallenge</title>
+    <!-- Inseirisco il link per rdire al sistema che il file html deve prendere insformazioni dal file style.css -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<!-- Apro in div il cui nome della classe sarà CONTENITORE, in quanto comnterrà tutto quello ceh andrò a scrivere nel codice; che sarà diviso a sua volta in header(titolo),nav(intestazione) e il main(parte centrale) -->
+   <div class="Contenitore">
+     <header>
+       <!-- Inserisco il logo -->
+       <img id="logo" src="logo.png">
+     </header>
+<!-- Parte intestazione -->
+     <nav>
+       <!-- Insrisco il titolo e l'intestazione -->
+       <h1>Tacking Booleaners from A to B</h1>
+       <!-- Apro un div che chiamerò Prenotazione per poi andare a definire le proprietà nel css usando questa classe per tutti e tre i submit -->
+       <div class="Prenotazione">
+         <input type="submit" name="" value="Prenota">
+         <input type="submit" name="" value="Termina Prenotazione">
+         <input type="submit" name="" value="Accendi le luci">
+       </div>
+     </nav>
+<!-- Parte Centrale del codice -->
+     <main>
+       <input type="checkbox"> <!-- metodo per creare un 'tasto' selezionabile dall'utente -->
+       <h2>Monopattino Mike24</h2><br><!-- uso h2 che poi nel css andrò a dire che deve essere inline-block perchè affianca il checkbox -->
+       <span class="Via">&#8614; Via Guadalametri - a 220 metri da te</span> <br> <!-- gli fo la class Via per poi dire nel css che devono essere corsivi-->
+       <span>Stato di carica:</span><br>
+       <div id="barra1">
+
+       </div>
+       <!-- Uso id e non class, in quanto il nome per la barra è unico nel codice -->
+
+       <input type="checkbox">
+       <h2>Monopattino Fedel154</h2><br>
+       <span class="Via">&#8614; Via Riccialdoni - a 420 metri da te</span> <br>
+       <span>Stato di carica:</span><br>
+       <div id="barra2">
+
+       </div>
+
+       <input type="checkbox">
+       <h2>Monopattino Gino22</h2><br>
+       <span class="Via">&#8614; Via Mentarini - a 490 metri da te</span> <br>
+       <span>Stato di carica:</span>
+       <div id="barra3">
+
+       </div>
+
+     </main>
+
+   </div>
+
+  </body>
+</html>
